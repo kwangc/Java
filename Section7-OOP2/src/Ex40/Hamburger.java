@@ -1,11 +1,11 @@
-package OOPMaster;
+package Ex40;
 
 public class Hamburger {
 
     private String name;
-    private String breadRoll;
     private String meat;
     private double price;
+    private String breadRollType;
 
     private String addition1Name;
     private double addition1Price;
@@ -19,11 +19,11 @@ public class Hamburger {
     private String addition4Name;
     private double addition4Price;
 
-    public Hamburger(String name, String breadRoll, String meat, double price) {
+    public Hamburger(String name, String meat, double price, String breadRollType) {
         this.name = name;
-        this.breadRoll = breadRoll;
         this.meat = meat;
         this.price = price;
+        this.breadRollType = breadRollType;
     }
 
     public void addHamburgerAddition1(String name, double price) {
@@ -45,7 +45,7 @@ public class Hamburger {
 
     public double itemizeHamburger() {
         double hamburgerPrice = this.price;
-        System.out.println(this.name + " hamburger on a " + this.breadRoll + " roll with " + this.meat + ", and the price is " + this.price);
+        System.out.println(this.name + " hamburger on a " + this.breadRollType + " roll with " + this.meat + ", and the price is " + this.price);
 
         if (this.addition1Name != null) {
             hamburgerPrice += this.addition1Price;

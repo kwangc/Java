@@ -1,4 +1,4 @@
-package CompositionChallenge;
+package Ex37Composition;
 
 public class Bedroom {
     private String name;

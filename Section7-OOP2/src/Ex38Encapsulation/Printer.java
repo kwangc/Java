@@ -1,4 +1,4 @@
-package EncapsulationChallenge;
+package Ex38Encapsulation;
 
 public class Printer {
 
@@ -27,7 +27,6 @@ public class Printer {
         } else {
             return -1;
         }
-
     }
 
     public int printPages(int pages) {
