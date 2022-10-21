@@ -1,4 +1,4 @@
-package MinElementChallenge;
+package Ex42MinimumElement;
 
 import java.util.Scanner;
 

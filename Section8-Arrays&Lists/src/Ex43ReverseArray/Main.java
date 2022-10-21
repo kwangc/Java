@@ -1,4 +1,4 @@
-package ReverseArrayChallenge;
+package Ex43ReverseArray;
 
 import java.util.Arrays;
 import java.util.Scanner;
